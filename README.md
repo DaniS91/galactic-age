@@ -2,7 +2,7 @@
 
 #### By _Dani Steely_
 
-#### _{Brief description of application}_
+#### _This is a basic program that takes an inputted age, past age, and future age from the user and outputs: the users ages on 5 planets including Earth, the amount of time since the user's inputted past age on 5 planets including Earth, and the amount of time until the user's inputted future age on 5 planets including earth. This project was created to practice using TDD in a development environment built for the project_
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This project was created to practice building a development environment and then to build a program using TDD methodology. The program takes a user's inputted current age, a past age, and a future age. The program uses javascript classes to output: the user's current age on (5 planets (Earth, Mercury, Venus, Mars, and Jupiter), the amount of time since the user's inputted past age on the same five planets, and the amount of time until the user's inputted future age on the same five planets. This project uses Jest and Babel in testing and ESLint for linting. The calculations for this program are very basic math and may not be extemely exact._
 
 ## Setup/Installation Requirements
 
@@ -26,12 +26,9 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _project is setup to test js files using command $npm run test_
 * _you can see these setup scripts in the package.json file under scripts_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
-
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs at this time_
 
 ## License
 
@@ -41,4 +38,4 @@ _The above copyright notice and this permission notice shall be included in all 
 
 _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
 
-Copyright (c) _12/21/2022_ _Dani Steely_
+Copyright (c) _12/23/2022_ _Dani Steely_
