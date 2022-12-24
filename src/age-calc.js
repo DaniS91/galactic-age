@@ -9,5 +9,6 @@ export default class GalacticAgeCalc {
     this.sinceMercuryAge = this.sinceEarthAge * .24;
     this.sinceVenusAge = this.sinceEarthAge * .62;
     this.sinceMarsAge = this.sinceEarthAge * 1.88;
+    this.sinceJupiterAge = this.sinceEarthAge * 11.86;
   }
 }
