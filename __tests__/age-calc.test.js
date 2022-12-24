@@ -1,1 +1,10 @@
-import Galactic from './../src/age-calc.js';
+import { TestScheduler } from 'jest';
+import GalacticAge from './../src/age-calc.js';
+
+describe('GalacticAge', () => {
+
+  test('should correctly create a GalacticAge class with an earthAge property', () => {
+    const myGalacticAge = new GalacticAge(31);
+    expect(myGalacticAge.earthAge).toEqual(31);
+  })
+})
