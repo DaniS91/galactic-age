@@ -6,5 +6,10 @@ describe('GalacticAge', () => {
   test('should correctly create a GalacticAge class with an earthAge property', () => {
     const myGalacticAge = new GalacticAge(31);
     expect(myGalacticAge.earthAge).toEqual(31);
-  })
-})
+  });
+
+  test('should correctly create a mercuryAge property in GalacticAge class', () => {
+    const myGalacticAge = new GalacticAge(31);
+    expect(myGalacticAge.mercuryAge).toEqual(31 * .24);
+  });
+});
