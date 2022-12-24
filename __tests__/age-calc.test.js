@@ -71,4 +71,9 @@ describe('GalacticAge', () => {
     const myGalacticAge = new GalacticAge(31, 21, 61);
     expect(myGalacticAge.untilMarsAge).toEqual((61 - 31) * 1.88);
   });
+
+  test('should correctly create an untilJupiterAge property in GalacticAge class', () => {
+    const myGalacticAge = new GalacticAge(31, 21, 61);
+    expect(myGalacticAge.untilJupiterAge).toEqual((61 - 31) * 11.86);
+  });
 });
