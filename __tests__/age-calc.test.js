@@ -1,4 +1,3 @@
-import { TestScheduler } from 'jest';
 import GalacticAge from './../src/age-calc.js';
 
 describe('GalacticAge', () => {
@@ -16,5 +15,10 @@ describe('GalacticAge', () => {
   test('should correctly create a mercuryAge property in GalacticAge class', () => {
     const myGalacticAge = new GalacticAge(31);
     expect(myGalacticAge.venusAge).toEqual(31 * .62);
+  });
+
+  test('should correctly create a mercuryAge property in GalacticAge class', () => {
+    const myGalacticAge = new GalacticAge(31);
+    expect(myGalacticAge.marsAge).toEqual(31 * 1.88);
   });
 });
