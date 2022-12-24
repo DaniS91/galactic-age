@@ -1,5 +1,5 @@
-export default class GalacticAgeCalc {
-  constructor(age, passedAge) {
+export default class GalacticAge {
+  constructor(age, passedAge, futureAge) {
     this.earthAge = age;
     this.mercuryAge = age * .24;
     this.venusAge = age * .62;
@@ -10,5 +10,6 @@ export default class GalacticAgeCalc {
     this.sinceVenusAge = this.sinceEarthAge * .62;
     this.sinceMarsAge = this.sinceEarthAge * 1.88;
     this.sinceJupiterAge = this.sinceEarthAge * 11.86;
+    this.untilEarthAge = futureAge - age;
   }
 }
