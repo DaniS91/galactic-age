@@ -21,4 +21,9 @@ describe('GalacticAge', () => {
     const myGalacticAge = new GalacticAge(31);
     expect(myGalacticAge.marsAge).toEqual(31 * 1.88);
   });
+
+  test('should correctly create a mercuryAge property in GalacticAge class', () => {
+    const myGalacticAge = new GalacticAge(31);
+    expect(myGalacticAge.jupiterAge).toEqual(31 * 11.86);
+  });
 });
