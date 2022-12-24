@@ -13,5 +13,6 @@ export default class GalacticAge {
     this.untilEarthAge = futureAge - age;
     this.untilMercuryAge = this.untilEarthAge * .24;
     this.untilVenusAge = this.untilEarthAge * .62;
+    this.untilMarsAge = this.untilEarthAge * 1.88;
   }
 }
