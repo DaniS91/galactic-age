@@ -7,6 +7,7 @@
 ## Technologies Used
 
 * _TDD_
+* _HTML_
 * _Javascript_
 * _Jest_
 * _Babel_
@@ -14,7 +15,7 @@
 
 ## Description
 
-_This project was created to practice building a development environment and then to build a program using TDD methodology. The program takes a user's inputted current age, a past age, and a future age. The program uses javascript classes to output: the user's current age on (5 planets (Earth, Mercury, Venus, Mars, and Jupiter), the amount of time since the user's inputted past age on the same five planets, and the amount of time until the user's inputted future age on the same five planets. This project uses Jest and Babel in testing and ESLint for linting. The calculations for this program are very basic math and may not be extemely exact._
+_This project was created to practice building a development environment and then to build a program using TDD methodology. The program takes a user's inputted current age, a past age, and a future age. The program uses javascript classes to output: the user's current age on 5 planets (Earth, Mercury, Venus, Mars, and Jupiter), the amount of time since the user's inputted past age on the same five planets, and the amount of time until the user's inputted future age on the same five planets. This project uses Jest and Babel in testing and ESLint for linting. The calculations for this program are very basic math and may not be very exact._
 
 ## Setup/Installation Requirements
 
