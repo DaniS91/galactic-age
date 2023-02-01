@@ -15,5 +15,9 @@ export default class GalacticAge {
     this.untilVenusAge = this.untilEarthAge * .62;
     this.untilMarsAge = this.untilEarthAge * 1.88;
     this.untilJupiterAge = this.untilEarthAge * 11.86;
+
+    listAges() {
+      return `${this.earthAge} Earth years, ${this.mercuryAge} Mercury years, ${this.VenusAge} Venus years, ${this.marsAge} Mars years, and ${this.jupiterAge} Jupiter years`;
+    }
   }
 }
