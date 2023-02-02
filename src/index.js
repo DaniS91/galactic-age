@@ -2,6 +2,7 @@ import './css/styles.css';
 import GalacticAge from './age-calc.js';
 
 function getAgeCalcs() {
+  document.querySelector("div").removeAttribute("class");
   const myAge = document.querySelector("input#age").value;
   const pastAge = document.querySelector("input#past-age").value;
   const futureAge = document.querySelector("input#future-age").value;
