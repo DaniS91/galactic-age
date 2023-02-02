@@ -9,6 +9,8 @@ function getAgeCalcs() {
   document.getElementById("output1").innerHTML = myGalacticAge.listAges();
   document.getElementById("output2").innerHTML = myGalacticAge.listYearsSince();
   document.getElementById("output3").innerHTML = myGalacticAge.listYearsUntil();
+  document.getElementById("print-past-age").innerHTML = pastAge;
+  document.getElementById("print-future-age").innerHTML = futureAge;
 }
 
 //UI Logic
