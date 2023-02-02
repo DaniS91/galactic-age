@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+h3{
+font-size: 20px;
+}
+
+input,
+label,
+p {
+  font-size: 14px;
+  margin: 10px;
+}
+
+button {
+  border: 1px white solid;
+  background-color: red;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+}
