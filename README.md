@@ -45,7 +45,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Copyright (c) _12/23/2022_ _Dani Steely_
 
 ## Image Attribution
-Please click images for attribution information
+Please click links for attribution information
 
 [Solar System gif](https://commons.wikimedia.org/wiki/File:Heliocentic_solar_system.gif)
 
