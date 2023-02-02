@@ -16,7 +16,13 @@ export default class GalacticAge {
     this.untilMarsAge = (this.untilEarthAge * 1.88).toFixed(2);
     this.untilJupiterAge = (this.untilEarthAge * 11.86).toFixed(2);
   }
+
   listAges() {
-    return `${this.earthAge} Earth years, ${this.mercuryAge} Mercury years, ${this.VenusAge} Venus years, ${this.marsAge} Mars years, and ${this.jupiterAge} Jupiter years`
+    return `${this.earthAge} Earth years | ${this.mercuryAge} Mercury years | ${this.venusAge} Venus years | ${this.marsAge} Mars years | ${this.jupiterAge} Jupiter years`;
   }
+
+  listYearsSince() {
+    return `${this.sinceEarthAge} Earth years | ${this.sinceMercuryAge} Mercury years | ${this.sinceVenusAge} Venus years | ${this.sinceMarsAge} Mars years | ${this.sinceJupiterAge} Jupiter years`;
+  }
+  
 }
