@@ -45,10 +45,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Copyright (c) _12/23/2022_ _Dani Steely_
 
 ## Image Attribution
-Please click images for attribution information
+Please click links for attribution information
 
-[![solar system image used in program](https://upload.wikimedia.org/wikipedia/commons/d/d1/Heliocentic_solar_system.gif)](https://commons.wikimedia.org/wiki/File:Heliocentic_solar_system.gif)
+[Solar System gif](https://commons.wikimedia.org/wiki/File:Heliocentic_solar_system.gif)
 
-[![spinning earth image used in program](https://upload.wikimedia.org/wikipedia/commons/d/d7/Earth%27s_Axis.gif?20201020130602)](https://commons.wikimedia.org/wiki/File:Earth%27s_Axis.gif)
+[spinning earth image used in program](https://commons.wikimedia.org/wiki/File:Earth%27s_Axis.gif)
 
 
