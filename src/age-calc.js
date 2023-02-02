@@ -24,5 +24,9 @@ export default class GalacticAge {
   listYearsSince() {
     return `${this.sinceEarthAge} Earth years | ${this.sinceMercuryAge} Mercury years | ${this.sinceVenusAge} Venus years | ${this.sinceMarsAge} Mars years | ${this.sinceJupiterAge} Jupiter years`;
   }
+
+  listYearsUntil() {
+    return `${this.untilEarthAge} Earth years | ${this.untilMercuryAge} Mercury years | ${this.untilVenusAge} Venus years | ${this.untilMarsAge} Mars years | ${this.untilJupiterAge} Jupiter years`;
+  }
   
 }
